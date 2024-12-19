@@ -8,9 +8,11 @@ local mod = {}
 if platform.is_mac then
    mod.SUPER = 'SUPER'
    mod.SUPER_REV = 'SUPER|CTRL'
+   mod.COPY = 'SUPER'
 elseif platform.is_win or platform.is_linux then
    mod.SUPER = 'ALT' -- to not conflict with Windows key shortcuts
    mod.SUPER_REV = 'ALT|CTRL'
+   mod.COPY = 'SHIFT|CTRL'
 end
 
 -- stylua: ignore
@@ -54,8 +56,8 @@ local keys = {
    { key = 'Backspace',  mods = mod.SUPER,     action = act.SendString '\u{15}' },
 
    -- copy/paste --
-   { key = 'c',          mods = 'CTRL|SHIFT',  action = act.CopyTo('Clipboard') },
-   { key = 'v',          mods = 'CTRL|SHIFT',  action = act.PasteFrom('Clipboard') },
+   { key = 'c',          mods = mod.COPY,  action = act.CopyTo('Clipboard') },
+   { key = 'v',          mods = mod.COPY,  action = act.PasteFrom('Clipboard') },
 
    -- tabs --
    -- tabs: spawn+close
