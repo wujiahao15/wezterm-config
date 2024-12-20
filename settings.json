@@ -1,0 +1,386 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema-preview",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste"
+        },
+        {
+            "command": "find",
+            "id": "User.find"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane.A6751878"
+        }
+    ],
+    "alwaysShowNotificationIcon": true,
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultInputScope": "alphanumericHalfWidth",
+    "defaultProfile": "{63360b09-e964-4d4e-be42-32d5ef738198}",
+    "keybindings": 
+    [
+        {
+            "id": null,
+            "keys": "ctrl+shift+tab"
+        },
+        {
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "Terminal.DecreaseFontSize",
+            "keys": "ctrl+minus"
+        },
+        {
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        },
+        {
+            "id": "Terminal.OpenNewWindow",
+            "keys": "alt+n"
+        },
+        {
+            "id": "Terminal.SwitchToTab0",
+            "keys": "alt+1"
+        },
+        {
+            "id": "Terminal.SwitchToTab5",
+            "keys": "alt+6"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+alt+1"
+        },
+        {
+            "id": "Terminal.SwitchToTab1",
+            "keys": "alt+2"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+alt+2"
+        },
+        {
+            "id": "Terminal.SwitchToTab2",
+            "keys": "alt+3"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+alt+3"
+        },
+        {
+            "id": "Terminal.SwitchToTab3",
+            "keys": "alt+4"
+        },
+        {
+            "id": "Terminal.DecreaseFontSize",
+            "keys": "alt+minus"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+n"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+alt+7"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+alt+4"
+        },
+        {
+            "id": "Terminal.SwitchToTab4",
+            "keys": "alt+5"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+alt+5"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+alt+6"
+        },
+        {
+            "id": "Terminal.SwitchToTab6",
+            "keys": "alt+7"
+        },
+        {
+            "id": "Terminal.SwitchToTab7",
+            "keys": "alt+8"
+        },
+        {
+            "id": "Terminal.ClosePane",
+            "keys": "alt+w"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+alt+8"
+        },
+        {
+            "id": "Terminal.DuplicatePaneDown",
+            "keys": "alt+\\"
+        },
+        {
+            "id": null,
+            "keys": "alt+shift+minus"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+numpad_plus"
+        },
+        {
+            "id": "Terminal.DuplicatePaneRight",
+            "keys": "ctrl+alt+\\"
+        },
+        {
+            "id": null,
+            "keys": "alt+space"
+        },
+        {
+            "id": null,
+            "keys": "alt+shift+plus"
+        },
+        {
+            "id": "Terminal.PrevTab",
+            "keys": "alt+["
+        },
+        {
+            "id": "Terminal.OpenNewTab",
+            "keys": "alt+t"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+t"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+shift+w"
+        },
+        {
+            "id": "Terminal.NextTab",
+            "keys": "alt+]"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+tab"
+        },
+        {
+            "id": null,
+            "keys": "ctrl+numpad_minus"
+        },
+        {
+            "id": "Terminal.IncreaseFontSize",
+            "keys": "alt+plus"
+        },
+        {
+            "id": "Terminal.OpenSystemMenu",
+            "keys": "alt+shift+m"
+        },
+        {
+            "id": "User.paste",
+            "keys": "alt+v"
+        },
+        {
+            "id": "User.copy.644BA8F2",
+            "keys": "alt+c"
+        }
+    ],
+    "minimizeToNotificationArea": false,
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "padding": "2",
+            "scrollbarState": "visible"
+        },
+        "list": 
+        [
+            {
+                "altGrAliasing": true,
+                "antialiasingMode": "grayscale",
+                "closeOnExit": "automatic",
+                "colorScheme": "Snazzy",
+                "commandline": "C:\\Users\\huaiy\\scoop\\shims\\nu.EXE",
+                "cursorShape": "bar",
+                "font": 
+                {
+                    "face": "Hasklug Nerd Font",
+                    "size": 13
+                },
+                "guid": "{63360b09-e964-4d4e-be42-32d5ef738198}",
+                "hidden": false,
+                "historySize": 9001,
+                "icon": "C:\\Users\\huaiy\\Downloads\\nushell.png",
+                "name": "Nushell",
+                "opacity": 92,
+                "padding": "2",
+                "scrollbarState": "visible",
+                "snapOnInput": true,
+                "startingDirectory": "%USERPROFILE%",
+                "tabTitle": "Nushell",
+                "useAcrylic": true
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "font": 
+                {
+                    "face": "Hasklug Nerd Font",
+                    "size": 13
+                },
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "\u547d\u4ee4\u63d0\u793a\u7b26"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "colorScheme": "Campbell",
+                "font": 
+                {
+                    "face": "Hasklug Nerd Font"
+                },
+                "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc",
+                "useAcrylic": true
+            },
+            {
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "hidden": true,
+                "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "font": 
+                {
+                    "face": "Hasklug Nerd Font",
+                    "size": 13
+                },
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "guid": "{2418d48e-2f8e-5485-8905-ee279051857c}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{a122575b-d161-55b0-85aa-1d89dd33e98d}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            }
+        ]
+    },
+    "rendering.graphicsAPI": "direct3d11",
+    "schemes": 
+    [
+        {
+            "background": "#EAEAEA",
+            "black": "#212121",
+            "blue": "#134EB2",
+            "brightBlack": "#424242",
+            "brightBlue": "#54A4F3",
+            "brightCyan": "#26BBD1",
+            "brightGreen": "#7ABA3A",
+            "brightPurple": "#AA4DBC",
+            "brightRed": "#E83B3F",
+            "brightWhite": "#D9D9D9",
+            "brightYellow": "#FFEA2E",
+            "cursorColor": "#16AFCA",
+            "cyan": "#0E717C",
+            "foreground": "#232322",
+            "green": "#457B24",
+            "name": "Material",
+            "purple": "#560088",
+            "red": "#B7141F",
+            "selectionBackground": "#C2C2C2",
+            "white": "#EFEFEF",
+            "yellow": "#F6981E"
+        },
+        {
+            "background": "#232322",
+            "black": "#212121",
+            "blue": "#134EB2",
+            "brightBlack": "#424242",
+            "brightBlue": "#54A4F3",
+            "brightCyan": "#26BBD1",
+            "brightGreen": "#7ABA3A",
+            "brightPurple": "#AA4DBC",
+            "brightRed": "#E83B3F",
+            "brightWhite": "#D9D9D9",
+            "brightYellow": "#FFEA2E",
+            "cursorColor": "#16AFCA",
+            "cyan": "#0E717C",
+            "foreground": "#E5E5E5",
+            "green": "#457B24",
+            "name": "MaterialDark",
+            "purple": "#560088",
+            "red": "#B7141F",
+            "selectionBackground": "#DFDFDF",
+            "white": "#EFEFEF",
+            "yellow": "#F6981E"
+        },
+        {
+            "background": "#1E1F29",
+            "black": "#000000",
+            "blue": "#49BAFF",
+            "brightBlack": "#555555",
+            "brightBlue": "#49BAFF",
+            "brightCyan": "#8BE9FE",
+            "brightGreen": "#50FB7C",
+            "brightPurple": "#FC4CB4",
+            "brightRed": "#FC4346",
+            "brightWhite": "#EDEDEC",
+            "brightYellow": "#F0FB8C",
+            "cursorColor": "#E4E4E4",
+            "cyan": "#8BE9FE",
+            "foreground": "#EBECE6",
+            "green": "#50FB7C",
+            "name": "Snazzy",
+            "purple": "#FC4CB4",
+            "red": "#FC4346",
+            "selectionBackground": "#81AEC6",
+            "white": "#EDEDEC",
+            "yellow": "#F0FB8C"
+        }
+    ],
+    "themes": [],
+    "useAcrylicInTabRow": true
+}
