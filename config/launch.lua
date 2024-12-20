@@ -6,16 +6,21 @@ local options = {
 }
 
 if platform.is_win then
-   options.default_prog = { 'pwsh', '-NoLogo' }
+   -- options.default_prog = { 'pwsh.exe', '-NoLogo' }
+   options.default_prog = { 'C:\\Program Files\\PowerShell\\7-preview\\pwsh.exe', '-NoLogo' }
    options.launch_menu = {
-      { label = 'PowerShell Core', args = { 'pwsh', '-NoLogo' } },
+      {
+         label = 'PowerShell Core',
+         -- args = { 'pwsh.exe', '-NoLogo' } },
+         args = { 'C:\\Program Files\\PowerShell\\7-preview\\pwsh.exe', '-NoLogo' },
+      },
       { label = 'PowerShell Desktop', args = { 'powershell' } },
       { label = 'Command Prompt', args = { 'cmd' } },
       { label = 'Nushell', args = { 'nu' } },
-      {
-         label = 'Git Bash',
-         args = { 'C:\\Users\\kevin\\scoop\\apps\\git\\current\\bin\\bash.exe' },
-      },
+      -- {
+      --    label = 'Git Bash',
+      --    args = { 'C:\\Users\\kevin\\scoop\\apps\\git\\current\\bin\\bash.exe' },
+      -- },
    }
 elseif platform.is_mac then
    -- options.default_prog = { '/opt/homebrew/bin/fish', '-l' }
