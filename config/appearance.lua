@@ -3,6 +3,7 @@ local backdrops = require('utils.backdrops')
 local colors = require('colors.custom')
 
 return {
+   term = 'xterm-256color',
    max_fps = 120,
    front_end = 'WebGpu',
    webgpu_power_preference = 'HighPerformance',
@@ -29,12 +30,19 @@ return {
    -- tab bar
    enable_tab_bar = true,
    hide_tab_bar_if_only_one_tab = false,
-   use_fancy_tab_bar = false,
+   use_fancy_tab_bar = true,
    tab_max_width = 25,
-   show_tab_index_in_tab_bar = false,
+   show_tab_index_in_tab_bar = true,
    switch_to_last_active_tab_when_closing_tab = true,
 
    -- window
+   window_decorations = 'INTEGRATED_BUTTONS|RESIZE',
+   integrated_title_button_style = 'Windows',
+   integrated_title_button_color = 'auto',
+   integrated_title_button_alignment = 'Right',
+   integrated_title_buttons = { 'Hide', 'Close' },
+   initial_cols = 100,
+   initial_rows = 28,
    window_padding = {
       left = 0,
       right = 0,

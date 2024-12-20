@@ -7,7 +7,8 @@ local options = {
 
 if platform.is_win then
    -- options.default_prog = { 'pwsh.exe', '-NoLogo' }
-   options.default_prog = { 'C:\\Program Files\\PowerShell\\7-preview\\pwsh.exe', '-NoLogo' }
+   -- options.default_prog = { 'C:\\Program Files\\PowerShell\\7-preview\\pwsh.exe', '-NoLogo' }
+   options.default_prog = { 'nu' }
    options.launch_menu = {
       {
          label = 'PowerShell Core',
