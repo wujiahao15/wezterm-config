@@ -1,6 +1,7 @@
 local gpu_adapters = require('utils.gpu_adapter')
 local backdrops = require('utils.backdrops')
 local colors = require('colors.custom')
+local fonts = require('config.fonts')
 
 return {
    term = 'xterm-256color',
@@ -41,11 +42,11 @@ return {
    integrated_title_button_color = 'auto',
    integrated_title_button_alignment = 'Right',
    integrated_title_buttons = { 'Hide', 'Close' },
-   initial_cols = 100,
-   initial_rows = 28,
+   initial_cols = 120,
+   initial_rows = 30,
    window_padding = {
-      left = 0,
-      right = 0,
+      left = 1,
+      right = 1,
       top = 10,
       bottom = 7.5,
    },
@@ -53,8 +54,9 @@ return {
    window_close_confirmation = 'NeverPrompt',
    window_frame = {
       active_titlebar_bg = '#090909',
-      -- font = fonts.font,
-      -- font_size = fonts.font_size,
+      font = fonts.font,
+      font_size = fonts.font_size,
+      -- font_size = 14,
    },
    -- inactive_pane_hsb = {
    --    saturation = 0.9,
