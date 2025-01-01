@@ -54,8 +54,8 @@ local keys = {
    { key = 'Backspace',  mods = mod.SUPER,     action = act.SendString '\u{15}' },
 
    -- copy/paste --
-   { key = 'c',          mods = mod.SUPER,  action = act.CopyTo('Clipboard') },
-   { key = 'v',          mods = mod.SUPER,  action = act.PasteFrom('Clipboard') },
+   { key = 'c',          mods = mod.SUPER,     action = act.CopyTo('Clipboard') },
+   { key = 'v',          mods = mod.SUPER,     action = act.PasteFrom('Clipboard') },
 
    -- tabs --
    -- tabs: spawn+close
@@ -174,14 +174,14 @@ local keys = {
    },
 
    -- panes: zoom+close pane
-   { key = 'Enter', mods = mod.SUPER,     action = act.TogglePaneZoomState },
-   { key = 'w',     mods = mod.SUPER,     action = act.CloseCurrentPane({ confirm = false }) },
+   { key = 'Enter', mods = mod.SUPER, action = act.TogglePaneZoomState },
+   { key = 'w',     mods = mod.SUPER, action = act.CloseCurrentPane({ confirm = false }) },
 
    -- panes: navigation
-   { key = 'k',     mods = mod.SUPER_REV, action = act.ActivatePaneDirection('Up') },
-   { key = 'j',     mods = mod.SUPER_REV, action = act.ActivatePaneDirection('Down') },
-   { key = 'h',     mods = mod.SUPER_REV, action = act.ActivatePaneDirection('Left') },
-   { key = 'l',     mods = mod.SUPER_REV, action = act.ActivatePaneDirection('Right') },
+   { key = 'k',     mods = mod.SUPER, action = act.ActivatePaneDirection('Up') },
+   { key = 'j',     mods = mod.SUPER, action = act.ActivatePaneDirection('Down') },
+   { key = 'h',     mods = mod.SUPER, action = act.ActivatePaneDirection('Left') },
+   { key = 'l',     mods = mod.SUPER, action = act.ActivatePaneDirection('Right') },
    {
       key = 'p',
       mods = mod.SUPER_REV,
